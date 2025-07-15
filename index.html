@@ -249,6 +249,25 @@
         margin-top: 15px;
       }
     }
+
+    .foto-equipe {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.foto-equipe img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.foto-equipe img:hover {
+  transform: scale(1.03);
+}
+
   </style>
 </head>
 <body>
@@ -300,7 +319,9 @@
       <i class="fas fa-apple-alt"></i>
     </div>
     <br>
-    <img src="professoras.jpeg" alt="professoras" style="border-radius: 3%;">
+    <div class="foto-equipe">
+  <img src="professoras.jpeg" alt="Equipe Pedagógica">
+</div>
   </section>
 
   <section id="proposta">
